@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://dpg-d04j1us9c44c739ms72g-a/carservicedb_sbca
+    username: xiaomaliarenko
+    password: nN0ALzkB3ighznmEunZOz8byAIv8I1dT
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres
