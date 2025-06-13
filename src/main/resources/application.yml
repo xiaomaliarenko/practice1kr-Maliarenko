@@ -8,10 +8,27 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://dpg-d04j1us9c44c739ms72g-a/carservicedb_sbca
+    url: jdbc:postgresql://dpg-d14armvdiees73d46grg-a/carservicedb_sbca_0214
     username: xiaomaliarenko
-    password: nN0ALzkB3ighznmEunZOz8byAIv8I1dT
+    password: VsiGLnVwnpBvqXRu4A2RXSpiZPKYPdIP
     driverClassName: org.postgresql.Driver
   sql:
     init:
       platform: postgres
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 733949029059-14igu9vbgv7lpnfi1m3t4f7h9k7rersh.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: "http://localhost:8080/oauth2/callback/google"
+            scope: openid,profile,email
+
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration: 86400000
+      refresh-token:
+        expiration: 604800000

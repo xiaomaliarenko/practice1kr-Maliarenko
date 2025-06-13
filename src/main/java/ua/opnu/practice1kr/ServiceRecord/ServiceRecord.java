@@ -1,7 +1,10 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.ServiceRecord;
 
 import jakarta.persistence.*;
 import lombok.*;
+import ua.opnu.practice1kr.Car.Car;
+import ua.opnu.practice1kr.Mechanic.Mechanic;
+import ua.opnu.practice1kr.ServiceType.ServiceType;
 
 import java.time.LocalDate;
 

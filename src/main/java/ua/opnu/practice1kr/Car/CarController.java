@@ -1,4 +1,4 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.Car;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

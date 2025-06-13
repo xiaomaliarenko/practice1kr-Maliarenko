@@ -1,7 +1,8 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.Car;
 
 import jakarta.persistence.*;
 import lombok.*;
+import ua.opnu.practice1kr.Client.Client;
 
 @Entity
 @Data

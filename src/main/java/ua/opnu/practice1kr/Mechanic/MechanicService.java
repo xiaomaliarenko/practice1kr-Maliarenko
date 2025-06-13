@@ -1,4 +1,4 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.Mechanic;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

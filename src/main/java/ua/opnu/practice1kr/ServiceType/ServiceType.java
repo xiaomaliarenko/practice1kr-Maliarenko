@@ -1,14 +1,16 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.ServiceType;
 
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.math.BigDecimal;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Mechanic {
+public class ServiceType {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,6 +18,5 @@ public class Mechanic {
 
     private String name;
 
-    private String specialization;
+    private BigDecimal standardPrice;
 }
-

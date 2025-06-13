@@ -1,7 +1,8 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.ServiceRecord;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import ua.opnu.practice1kr.ServiceType.ServiceType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

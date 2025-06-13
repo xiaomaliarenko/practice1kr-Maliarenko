@@ -1,4 +1,4 @@
-package ua.opnu.practice1kr;
+package ua.opnu.practice1kr.ServiceRecord;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
